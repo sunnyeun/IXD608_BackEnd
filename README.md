@@ -1,4 +1,4 @@
-# IXD608_BackEnd_E_Commerce
+# IXD608_BackEnd
 
 Product Preview: 
 http://sunnyeun.co/aau/ixd608/eun.sunny/index.html
