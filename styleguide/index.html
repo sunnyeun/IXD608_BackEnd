@@ -18,11 +18,11 @@
 				<h1>Style Guide</h1>
 			</div>
 			<div class="flex-stretch"></div>
-<!-- 			<nav class="nav flex-none"> 
+			<nav class="nav flex-none"> 
 				<ul class="container display-flex">
 					<li><a href="#tableofcontents">Table of Contents</a></li>
 				</ul>
-			</nav> -->
+			</nav>
 		</div>	
 	</header>
 
@@ -164,6 +164,88 @@
 
 	<div class="container" id="gridsystem">
 		<h2 class="h2-margin">Grid System</h2>
+
+		<h3>Basic Structure</h3>
+		<h4>Single Column Non-Responsive</h4>
+		<div class="grid">
+			<div class="col-xs-12">
+				<div class="well">Column 12</div>
+			</div>
+		</div>
+		<h4>3 Column Responsive</h4>
+		<div class="grid">
+			<div class="col-xs-12 col-md-4">
+				<div class="well">col-xs-12 col-md-4</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="well">col-xs-12 col-md-4</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="well">col-xs-12 col-md-4</div>
+			</div>
+		 </div>
+
+		 <h4>4 Column Responsive</h4>
+		 <div class="grid">
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 </div>
+
+		 <h3 class="h3-margin">Gap</h3>
+		 <h4>4 Column Responsive with Gap</h4>
+		 <div class="grid gap">
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 	<div class="col-xs-12 col-md-3">
+		 		<div class="well">col-xs-12 col-md-3</div>
+		 	</div>
+		 </div>
+
+		 <h3 class="h3-margin">Other Examples</h3>
+		 <h4>Images</h4>
+		 <div class="grid gap">
+		 	<div class="col-xs-12 col-md-6">
+		 		<img src="https://via.placeholder.com/600" alt="" class="media-image">
+		 	</div>
+		 	<div class="col-xs-12 col-md-6">
+		 		<div class="grid gap">
+		 			<div class="col-xs-12 col-md-6">
+		 				<img src="https://via.placeholder.com/600" alt="" class="media-image">
+		 				<div>Text</div>
+		 			</div>
+		 			<div class="col-xs-12 col-md-6">
+		 				<img src="https://via.placeholder.com/600" alt="" class="media-image">
+		 				<div>Text</div>
+		 			</div>
+		 			<div class="col-xs-12 col-md-6">
+		 				<img src="https://via.placeholder.com/600" alt="" class="media-image">
+		 				<div>Text</div>
+		 			</div>
+		 			<div class="col-xs-12 col-md-6">
+		 				<img src="https://via.placeholder.com/600" alt="" class="media-image">
+		 				<div>Text</div>
+		 			</div>
+		 		</div>
+		 	</div>
+		 </div>
+
 	</div>
 
 	<div class="container" id="flexsystem">
@@ -438,7 +520,7 @@
 					</form>
 				</div>
 				<div class="form-control">
-					<form class="card dark">
+					<form>
 						<input type="search" class="hotdog light" placeholder="Search">
 					</form>
 				</div>
@@ -488,7 +570,7 @@
 			<div class="card soft">
 				<h3>Basic Checkbox</h3>
 				<label>Label <input type="checkbox" id="input-1"></label>
-				<!-- <label for="input-1">Label</label> -->
+				<label for="input-1">Label</label>
 
 				<h3 class="h3-margin">Heart Checkbox</h3>
 				<div class="favorite">

@@ -43,14 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-bold);
 }
 
-.h2-margin {
-	margin-top: 3em;
-}
-
-.h3-margin {
-	margin-top: 3em;
-}
-
 a {
 	color: inherit;
 	font-weight: 700;
@@ -67,7 +59,7 @@ a:hover {
 }
 
 .container {
-	width: 1000px;
+	max-width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -84,7 +76,7 @@ a:hover {
 .display-inline-block {
 	display: inline-block;
 }
-.flex-strectch {
+.flex-stretch {
 	flex: 1 1 auto;
 }
 .flex-none {
@@ -215,6 +207,7 @@ a:hover {
 	padding: 1.5em;
 	overflow: hidden;
 	position: relative;
+	border-radius: 1.5em;
 }	
 	.card.soft {
 		box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
@@ -224,12 +217,37 @@ a:hover {
 		border: 2px solid var(--color-neutral-medium);
 		border-radius: 1.5em;
 	}
+	.card.dark {
+		background-color: var(--color-neutral-dark);
+		color: var(--color-neutral-light);
+	}
 	.card.medium {
 		background-color: var(--color-neutral-medium);
 	}
 	.card.flat {
 		padding: 0;
 	}
+.well {
+	background-color: var(--color-neutral-light);
+	padding: 1em 0;
+	border-radius: 0.2em;
+}	
+
+/* HORIZONTAL RULES*/
+
+hr {
+	border-width: 0;
+	margin: 1em 0;
+	border-bottom: 1px dashed var(--color-neutral-medium);
+}
+
+/* ICONS */
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;;
+}
 .view-window {
 	height: 50vh;
 	position: relative;
@@ -237,7 +255,6 @@ a:hover {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	border-radius: 1.5em;
 }
 .table {
 	width: 100%;
@@ -265,11 +282,9 @@ a:hover {
 .table.lined.border {
 	border: 1px solid var(--color-neutral-medium);
 }
-
 .figure {
 	margin: 0;
 	background-color: var(--color-white);
-	border-radius: 1.5em;
 }
 .figure img {
 	width: 100%;
@@ -359,6 +374,7 @@ input[type='submit'] {
 .hotdog.light {
 	background-color: var(--color-white);
 	color: var(--color-black);
+	border: 1px solid var(--color-neutral-dark);
 }
 .form-select>select {
 	padding: 0.5em 1.3em;

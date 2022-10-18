@@ -54,7 +54,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	opacity: 0;
 	transition: all 0.3s;
 	display: flex;
@@ -62,6 +62,10 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	padding: 0;
+	
+}
+.product-overlay figcaption div div {
+	font-family: var(--font-bold) !important;
 	color: var(--color-white);
 }
 
@@ -119,6 +123,27 @@ body {
 .favorite input:checked + label {
 	color: #FF3B30;
 	transform: scale(1.5, 1.5);
+}
+
+.nav-toggle label {
+	display: none;
+}
+.well {
+	border: 1px solid var(--color-neutral-medium);
+	text-align: center;
+}
+.h2-margin {
+	margin-top: 3em;
+}
+
+.h3-margin {
+	margin-top: 3em;
+}
+.view-window {
+	border-radius: 1.5em;
+}
+.figure {
+	border-radius: 1.5em;
 }
 
 
