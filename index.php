@@ -7,22 +7,8 @@
 
 </head>
 <body>
-	<header>
-		<div class="container display-flex">
-			<div class="flex-none">
-				<h1>Fragrance Store</h1>
-			</div>
-			<div class="flex-stretch"></div>
-			<div class="flex-none nav">
-				<ul class="container display-flex">
-					<li><a href="#article1">Aromatic</a></li>
-					<li><a href="#article2">Floral</a></li>
-					<li><a href="#article3">Green</a></li>
-					<li><a href="#article4">Woody</a></li>
-				</ul>
-			</div>
-		</div>
-	</header>
+
+	<? include "parts/navbar.php"; ?>
 
 	<div class="container">
 		<div class="card soft">

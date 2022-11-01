@@ -132,6 +132,9 @@ body {
 	border: 1px solid var(--color-neutral-medium);
 	text-align: center;
 }
+.store-name {
+	padding: 0.8em;
+}
 .h2-margin {
 	margin-top: 3em;
 }
