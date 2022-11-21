@@ -165,7 +165,8 @@ body {
 	text-decoration: none;
 	color: var(--color-neutral-medium);
 }
-.product-list-brand-name, .product-detail-brand-name, .cart-brand-name  {
+
+.product-list-brand-name, .product-detail-brand-name, .cart-brand-name {
 	font-size: 0.8em;
 	font-family: var(--font-bold);
 	text-transform: uppercase;
@@ -176,6 +177,7 @@ body {
 	font-size: 1.4em;
 }
 .cart-product-name {
+	margin-top: 1em;
 	margin-bottom: 0.6em;
 }
 .product-list-price, .product-detail-price {
@@ -183,6 +185,9 @@ body {
 	font-family: var(--font-bold);
 	color: var(--color-brown-light);
 	margin-top: 0.6em;
+}
+.product-item-form-label {
+	margin-bottom: 0.5em;
 }
 .cart-delete-button a {
 	color: #FF3B30;
@@ -193,6 +198,12 @@ body {
 }
 .checkout-button {
 	margin-top: 1em;
+}
+span.badge:not(:empty)::after {
+	content: ')';
+}
+span.badge:not(:empty)::before {
+	content: '(';
 }
 
 
